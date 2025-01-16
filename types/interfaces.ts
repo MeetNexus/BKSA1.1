@@ -32,6 +32,7 @@ export interface Order {
   real_stock?: { [productId: number]: number }
   theoretical_stock?: { [productId: number]: number }
   ordered_quantities?: { [productId: number]: number }
+  week_data?: WeekData
 }
 
 export interface Category {
